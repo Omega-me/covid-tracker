@@ -1,0 +1,22 @@
+.table {
+  width: 100%;
+  height: 55vh;
+  overflow-y: scroll;
+  tr {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    border-radius: 5px;
+    cursor: default;
+    &:nth-child(odd) {
+      background-color: rgb(236, 236, 236);
+    }
+    td {
+      padding: 3px;
+      strong {
+        color: rgb(102, 102, 102);
+        font-size: 0.9rem;
+      }
+    }
+  }
+}

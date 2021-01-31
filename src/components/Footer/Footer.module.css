@@ -1,0 +1,11 @@
+.footer {
+  width: 100vw;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+.footer h5 {
+  padding: 5px;
+}
+/*# sourceMappingURL=Footer.module.css.map */

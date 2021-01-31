@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+
+  .header__logo {
+    display: flex;
+    align-items: center;
+    h1 {
+      margin-left: 25px;
+      color: #418fde;
+    }
+  }
+  @media all and (max-width: 768px) {
+    h1 {
+      font-size: 1.2rem;
+    }
+  }
+}

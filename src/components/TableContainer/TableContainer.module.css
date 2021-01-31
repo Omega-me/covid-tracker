@@ -1,0 +1,35 @@
+.tableContainer {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+}
+
+.tableContainer .innerContainer {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  padding: 10px;
+  -webkit-box-shadow: 0 0 2px 1px rgba(129, 129, 129, 0.2);
+          box-shadow: 0 0 2px 1px rgba(129, 129, 129, 0.2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.tableContainer .innerContainer h1 {
+  font-size: 1.5rem;
+  color: gray;
+  padding: 5px;
+}
+
+.tableContainer .innerContainer .table {
+  width: 100%;
+  height: 500px;
+}
+/*# sourceMappingURL=TableContainer.module.css.map */

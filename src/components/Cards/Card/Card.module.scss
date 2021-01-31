@@ -1,0 +1,128 @@
+.card {
+  flex: 1;
+  background-color: white;
+  height: 150px;
+  border: 1px solid lightgray;
+  cursor: pointer;
+  padding: 20px;
+  &:not(:last-child) {
+    //adding margin-right to all childrens but not to the last
+    margin-right: 20px;
+  }
+  border-radius: 7px;
+  transition: all 0.25s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  .card__title {
+    text-transform: uppercase;
+  }
+
+  // .card__total {
+  //   color: grey;
+  // }
+  @media all and (max-width: 768px) {
+    padding: 10px;
+    margin: 5px;
+    .card__title {
+      font-size: 0.7rem;
+    }
+    h3 {
+      font-size: 1rem;
+    }
+    .card__total {
+      font-size: 0.7rem;
+    }
+  }
+}
+.cases {
+  &:hover {
+    box-shadow: 0 0 3px 2px rgba($color: #818181, $alpha: 0.2);
+    border: 1px solid white;
+    border-top: 10px solid orangered;
+  }
+  .card__title {
+    color: orangered;
+  }
+  h3 {
+    color: orangered;
+  }
+  .card__total {
+    color: orangered;
+  }
+}
+.recovered {
+  &:hover {
+    box-shadow: 0 0 3px 2px rgba($color: #818181, $alpha: 0.2);
+    border: 1px solid white;
+    border-top: 10px solid green;
+  }
+  .card__title {
+    color: green;
+  }
+  h3 {
+    color: green;
+  }
+  .card__total {
+    color: green;
+  }
+}
+.deaths {
+  &:hover {
+    box-shadow: 0 0 3px 2px rgba($color: #818181, $alpha: 0.2);
+    border: 1px solid white;
+    border-top: 10px solid red;
+  }
+  .card__title {
+    color: red;
+  }
+  h3 {
+    color: red;
+  }
+  .card__total {
+    color: red;
+  }
+}
+.activeCases {
+  box-shadow: 0 0 3px 2px rgba($color: #818181, $alpha: 0.2);
+  border: 1px solid white;
+  border-top: 10px orangered solid;
+  .card__title {
+    color: orangered;
+  }
+  h3 {
+    color: orangered;
+  }
+  .card__total {
+    color: orangered;
+  }
+}
+.activeRecovered {
+  box-shadow: 0 0 3px 2px rgba($color: #818181, $alpha: 0.2);
+  border: 1px solid white;
+  border-top: 10px green solid;
+  .card__title {
+    color: green;
+  }
+  h3 {
+    color: green;
+  }
+  .card__total {
+    color: green;
+  }
+}
+.activeDeaths {
+  box-shadow: 0 0 3px 2px rgba($color: #818181, $alpha: 0.2);
+  border: 1px solid white;
+  border-top: 10px red solid;
+  .card__title {
+    color: red;
+  }
+  h3 {
+    color: red;
+  }
+  .card__total {
+    color: red;
+  }
+}

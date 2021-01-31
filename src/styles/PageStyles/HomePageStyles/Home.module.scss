@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  .constainer__left {
+    flex: 0.7;
+  }
+  .container__right {
+    flex: 0.3;
+  }
+  @media all and (max-width: 992px) {
+    flex-direction: column;
+  }
+}

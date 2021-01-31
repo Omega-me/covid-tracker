@@ -1,0 +1,33 @@
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .header__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .header__logo h1 {
+  margin-left: 25px;
+  color: #418fde;
+}
+
+@media all and (max-width: 768px) {
+  .header h1 {
+    font-size: 1.2rem;
+  }
+}
+/*# sourceMappingURL=Header.module.css.map */

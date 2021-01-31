@@ -1,0 +1,28 @@
+.map {
+  padding: 20px;
+  margin: auto;
+  width: 97%;
+  height: 60vh;
+  border-radius: 10px;
+  box-shadow: 0 0 2px 1px rgba($color: #818181, $alpha: 0.2);
+  margin-bottom: 20px;
+  .map__popupImage {
+    width: 75px;
+    object-fit: contain;
+    display: block;
+    margin: 5px auto;
+    // border: 1px solid rgba(241, 241, 241, 0.548);
+    box-shadow: 0 0 2px 1px rgba($color: #b8b8b8, $alpha: 0.25);
+  }
+  .map__popupCountryName {
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .popup__cases {
+    // padding: 0;
+    margin: 3px 0;
+    font-weight: bold;
+    text-align: center;
+  }
+}

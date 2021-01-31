@@ -1,0 +1,33 @@
+.map {
+  padding: 20px;
+  margin: auto;
+  width: 97%;
+  height: 60vh;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 2px 1px rgba(129, 129, 129, 0.2);
+          box-shadow: 0 0 2px 1px rgba(129, 129, 129, 0.2);
+  margin-bottom: 20px;
+}
+
+.map .map__popupImage {
+  width: 75px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  display: block;
+  margin: 5px auto;
+  -webkit-box-shadow: 0 0 2px 1px rgba(184, 184, 184, 0.25);
+          box-shadow: 0 0 2px 1px rgba(184, 184, 184, 0.25);
+}
+
+.map .map__popupCountryName {
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.map .popup__cases {
+  margin: 3px 0;
+  font-weight: bold;
+  text-align: center;
+}
+/*# sourceMappingURL=Map.module.css.map */

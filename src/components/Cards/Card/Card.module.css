@@ -1,0 +1,161 @@
+.card {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-color: white;
+  height: 150px;
+  border: 1px solid lightgray;
+  cursor: pointer;
+  padding: 20px;
+  border-radius: 7px;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.card:not(:last-child) {
+  margin-right: 20px;
+}
+
+.card .card__title {
+  text-transform: uppercase;
+}
+
+@media all and (max-width: 768px) {
+  .card {
+    padding: 10px;
+    margin: 5px;
+  }
+  .card .card__title {
+    font-size: 0.7rem;
+  }
+  .card h3 {
+    font-size: 1rem;
+  }
+  .card .card__total {
+    font-size: 0.7rem;
+  }
+}
+
+.cases:hover {
+  -webkit-box-shadow: 0 0 3px 2px rgba(129, 129, 129, 0.2);
+          box-shadow: 0 0 3px 2px rgba(129, 129, 129, 0.2);
+  border: 1px solid white;
+  border-top: 10px solid orangered;
+}
+
+.cases .card__title {
+  color: orangered;
+}
+
+.cases h3 {
+  color: orangered;
+}
+
+.cases .card__total {
+  color: orangered;
+}
+
+.recovered:hover {
+  -webkit-box-shadow: 0 0 3px 2px rgba(129, 129, 129, 0.2);
+          box-shadow: 0 0 3px 2px rgba(129, 129, 129, 0.2);
+  border: 1px solid white;
+  border-top: 10px solid green;
+}
+
+.recovered .card__title {
+  color: green;
+}
+
+.recovered h3 {
+  color: green;
+}
+
+.recovered .card__total {
+  color: green;
+}
+
+.deaths:hover {
+  -webkit-box-shadow: 0 0 3px 2px rgba(129, 129, 129, 0.2);
+          box-shadow: 0 0 3px 2px rgba(129, 129, 129, 0.2);
+  border: 1px solid white;
+  border-top: 10px solid red;
+}
+
+.deaths .card__title {
+  color: red;
+}
+
+.deaths h3 {
+  color: red;
+}
+
+.deaths .card__total {
+  color: red;
+}
+
+.activeCases {
+  -webkit-box-shadow: 0 0 3px 2px rgba(129, 129, 129, 0.2);
+          box-shadow: 0 0 3px 2px rgba(129, 129, 129, 0.2);
+  border: 1px solid white;
+  border-top: 10px orangered solid;
+}
+
+.activeCases .card__title {
+  color: orangered;
+}
+
+.activeCases h3 {
+  color: orangered;
+}
+
+.activeCases .card__total {
+  color: orangered;
+}
+
+.activeRecovered {
+  -webkit-box-shadow: 0 0 3px 2px rgba(129, 129, 129, 0.2);
+          box-shadow: 0 0 3px 2px rgba(129, 129, 129, 0.2);
+  border: 1px solid white;
+  border-top: 10px green solid;
+}
+
+.activeRecovered .card__title {
+  color: green;
+}
+
+.activeRecovered h3 {
+  color: green;
+}
+
+.activeRecovered .card__total {
+  color: green;
+}
+
+.activeDeaths {
+  -webkit-box-shadow: 0 0 3px 2px rgba(129, 129, 129, 0.2);
+          box-shadow: 0 0 3px 2px rgba(129, 129, 129, 0.2);
+  border: 1px solid white;
+  border-top: 10px red solid;
+}
+
+.activeDeaths .card__title {
+  color: red;
+}
+
+.activeDeaths h3 {
+  color: red;
+}
+
+.activeDeaths .card__total {
+  color: red;
+}
+/*# sourceMappingURL=Card.module.css.map */
